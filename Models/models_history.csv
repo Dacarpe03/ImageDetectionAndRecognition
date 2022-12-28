@@ -1,2 +1,3 @@
 ,model_name,epochs,learning_rate,optimizer,activation,batch_size,callbacks,regularization,initializer,dropout,batch_normalization,mean_accuracy,mean_recall,mean_precision,training_time
 0,ir_121-1-1,1,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,0.2,No,3.1376265775427745,9.464109956045402,6.796113267806344,8
+1,ir_12-1-1-1,20,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,0.2,No,12.656881918468871,15.344714474983379,13.966807966414665,1197
