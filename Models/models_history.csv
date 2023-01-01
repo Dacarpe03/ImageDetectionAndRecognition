@@ -1,3 +1,6 @@
 ,model_name,epochs,learning_rate,optimizer,activation,batch_size,callbacks,regularization,initializer,dropout,batch_normalization,mean_accuracy,mean_recall,mean_precision,training_time
 0,ir_121-1-1,1,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,0.2,No,3.1376265775427745,9.464109956045402,6.796113267806344,8
-1,ir_12-1-1-1,20,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,0.2,No,12.656881918468871,15.344714474983379,13.966807966414665,1197
+1,ir_12-1-1-1,20,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,0.2,No,12.656881918468873,15.34471447498338,13.966807966414663,1197
+2,ir_256_128_64_32-2-1-1,20,0.001,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,No,No,33.546623122638465,16.755259095979522,6.275466487564471,1206
+3,ir_256_128_64_32-2-1-1,20,0.1,Adam 0.9 0.999,relu,32,reducelr 10 0.1 - early_stop 40,No,No,No,No,0.2278466591983595,8.333333333333332,0.0189872215998632,1286
+4,ir_12-1-2-1,50,0.001,Adam 0.9 0.999,relu,32,reducelr 3 0.1 - early_stop 5,No,No,0.2,No,1.9594812691058918,13.445010137418489,11.748885746518841,724
